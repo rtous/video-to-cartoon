@@ -56,8 +56,8 @@ class ImageConverter:
             model = "gustavorayo/ryo-takemasa-v1"
             style_key_word = "ryo takemasa style"
         elif style == "pixelart":
-            model = "nerijs/pixel-art-xl"
-            style_key_word = "pixel"
+            model = "LostMedia/RetroDiffusion"
+            style_key_word = "Pixel Art"
         else:
             raise Exception(f"style {style} not suported")
         return model, style_key_word
