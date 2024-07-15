@@ -55,6 +55,9 @@ class ImageConverter:
         elif style == "ryo":
             model = "gustavorayo/ryo-takemasa-v1"
             style_key_word = "ryo takemasa style"
+        elif style == "pixelart":
+            model = "nerijs/pixel-art-xl"
+            style_key_word = "pixel"
         else:
             raise Exception(f"style {style} not suported")
         return model, style_key_word
