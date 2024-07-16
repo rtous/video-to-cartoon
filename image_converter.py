@@ -64,6 +64,9 @@ class ImageConverter:
         elif style == "pixelart3":
             model = "stabilityai/stable-diffusion-3-medium"
             style_key_word = "flat colors pixel-art retro 8-bit sprite game character"
+        elif style == "rotoscopee":
+            model = "tuwonga/rotoscopee"
+            style_key_word = "rotoscopee"
         else:
             raise Exception(f"style {style} not suported")
         return model, style_key_word
