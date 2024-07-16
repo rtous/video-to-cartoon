@@ -60,7 +60,7 @@ class ImageConverter:
             style_key_word = "Pixel Art"
         elif style == "pixelart2":
             model = "runwayml/stable-diffusion-v1-5"
-            style_key_word = "retro 8-bit sprite game character"
+            style_key_word = "flat colors pixel-art retro 8-bit sprite game character"
         else:
             raise Exception(f"style {style} not suported")
         return model, style_key_word
