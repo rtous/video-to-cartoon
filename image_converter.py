@@ -69,7 +69,8 @@ class ImageConverter:
             style_key_word = "rotoscopee pixelized flat colors"
         elif style == "seg4art":
             model = "rtous/seg4art-sd15"
-            style_key_word = "<seg4art>"
+            style_key_word = "seg4art"
+            #man running with <seg4art> visual style visual style of retro games computer graphics, pixel-art, flat colors, geometric
         else:
             raise Exception(f"style {style} not suported")
         return model, style_key_word
