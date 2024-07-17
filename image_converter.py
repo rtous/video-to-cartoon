@@ -67,7 +67,7 @@ class ImageConverter:
         elif style == "rotoscopee":
             model = "tuwonga/rotoscopee"
             style_key_word = "rotoscopee pixelized flat colors"
-        elif style == "rotoscopee":
+        elif style == "seg4art":
             model = "rtous/seg4art"
             style_key_word = "<seg4art>"
         else:
