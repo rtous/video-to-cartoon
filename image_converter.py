@@ -68,7 +68,7 @@ class ImageConverter:
             model = "tuwonga/rotoscopee"
             style_key_word = "rotoscopee pixelized flat colors"
         elif style == "seg4art":
-            model = "rtous/seg4art"
+            model = "rtous/seg4art-sd15"
             style_key_word = "<seg4art>"
         else:
             raise Exception(f"style {style} not suported")
